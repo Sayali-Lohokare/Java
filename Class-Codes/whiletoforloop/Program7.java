@@ -2,18 +2,19 @@ class Reverse{
 	public static void main(String[] args){
 		int num = 7;
 		
-		while(num>0){
+		
 			if(num%2==0){
-				
-			System.out.println(num);
-			num--;
-			}
-			else{
+				for(num>0;num--){
 				System.out.println(num);
-				num= num - 2;
 			}
 		}
 		
+		else{
+			for(num>0;num=num-2){
+				System.out.println(num);
+		
+		}
 	}
+}
 }
 

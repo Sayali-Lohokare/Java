@@ -7,13 +7,19 @@ class Sum{
 			if(num % 2 == 0){
 				
 				
-				System.out.println(sum = num + sum);
+			sum = num + sum;
 				}
 			
 			
-		else if(num %2!=0){
-				System.out.println(mul = num * num);
-			 }			num ++;
+		else{
+			
+				mul = mul * num;
+			 }			
+		         
+		num ++;
+		}
+		System.out.println(sum);
+		System.out.println(mul);
 			
 			
 		}
