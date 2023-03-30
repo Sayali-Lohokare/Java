@@ -1,39 +1,49 @@
 class NestedSwitchDemo{
 	public static void main(String[] args){
-		String str="Mall";
-		System.out.println("Amanora");
+		String str="Amanora";
+		System.out.println("Mall");
 		switch(str){
-			case"Amanora":
+			case "Amanora":
 				{
 					String str1="Starbuks";
 					switch(str1){
-						case"Goodluck":
+						case "Goodluck":
+							{
 							System.out.println("Average");
+							}
 							break;
-						case"Starbuks":
+							
+						case "Starbuks":
+							{
 							System.out.println("Outstanding");
+							}
 							break;
 					}
 				}
 				break;
 		
-		case"Pavillion":
+		case "Pavillion":
 				{
 					
 		       
-i		                	String str1="Salon";
+		                	String str1="Salon";
 			                switch(str1){
-				                 case"Habib":
+				                 case "Habib":
+							 {
 					         	System.out.println("Expensive");
+							 }
 					        	break;
-				                 case"Salon":
+				                 case "Salon":
+							{
 							System.out.println("Commomn");
+							}
 							break;
 					}
 				}
 				break;
+		}
 				System.out.println("After Switch");
 		}
 	}
-}
+
 

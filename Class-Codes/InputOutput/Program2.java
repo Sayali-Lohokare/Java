@@ -5,10 +5,10 @@ class DreamCompany{
 		System.out.println("Company name");
 
 		String name=obj.next();
-		System.out.println("Excpected package");
-		float package=obj.nextfloat();
+		System.out.println("Excpected salary");
+		float salary=obj.nextFloat();
 
 		System.out.println(name);
-		System.out.println(package);
+		System.out.println(salary);
 	}
 }
