@@ -10,7 +10,7 @@ class Demo{
 
 	}
 	
-	void fun(int x){
+	void fun(float x){
 	System.out.println(x);
 }
 }

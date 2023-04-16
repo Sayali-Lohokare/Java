@@ -1,11 +1,12 @@
 class Demo{
-	int fun(int x){
-		return x+10;
-	}
 	public static void main(String[] args){
 		Demo obj = new Demo();
 		obj.fun(10);
-		System.out.println(return);
+		obj.fun(10.5f);
+		obj.fun('A');
+	}
+	void fun(float x){
+		System.out.println("in fun");
+		System.out.println(x);
 	}
 }
-			
