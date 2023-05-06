@@ -1,4 +1,4 @@
-class EqualsDemo{
+class EqualsObjDemo{
 	public static void main(String[] args){
 
 		String str1 = "Shashi";
