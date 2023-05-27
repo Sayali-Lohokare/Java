@@ -7,6 +7,7 @@ class Palindrome{
 		for(int i=n;i>0;rev=rev*10+rem){
 			rem=i%10;
 			i=i/10;
+   System.out.println(i);
 		}
 		
 		if(temp==rev){
