@@ -20,7 +20,7 @@ class Break{
 			System.out.println("prime number");
 		}
 		else{
-			System.out.println("not prime");
+			System.out.println("number is not prime");
 		}
 	}
 }
