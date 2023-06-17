@@ -11,6 +11,7 @@ class Client{
         DemoChild obj = new DemoChild();
         obj.fun();
         //Demo.fun();
+        obj.fun()
 
     }
 }
