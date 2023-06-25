@@ -5,7 +5,7 @@ class Break{
 			if(i%3==0){
 				break;
 			}
-			System.out.println(i);
+			//System.out.println(i);
 		}
 	}
 }
