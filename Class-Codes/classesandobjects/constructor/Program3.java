@@ -12,7 +12,7 @@ class ConstrDemo{
 		ConstrDemo obj2 = new ConstrDemo();
 
 		System.out.println(obj1);
-		System.out.println(obj2);
+		//System.out.println(obj2);
 
 		obj1.fun();
 	}
