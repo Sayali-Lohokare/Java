@@ -17,7 +17,7 @@ class Client{
     public static void main(String[] args){
         Parent obj1 = new Parent();
         Child obj2 = new Child();
-        obj1.parentProperty();
+        //obj1.parentProperty();
     }
 }
     
