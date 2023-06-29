@@ -5,7 +5,7 @@ class Quiz{
 			System.out.println(var);
 			var--;
 			if(var<5)
-				break;
+				//break;
 		}
 	}
 }
