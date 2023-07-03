@@ -20,7 +20,7 @@ class Sum{
 		}
 		System.out.println(sum);
 		System.out.println(mul);
-			
+		System.out.println():	
 			
 		}
 	}
