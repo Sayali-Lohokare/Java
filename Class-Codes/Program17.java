@@ -6,7 +6,7 @@ class Factorial{
 		for(i=1;i<=5;i++){
 			sum = sum * i;
 		}
-			System.out.println(sum);
+			//System.out.println(sum);
 		
 	}
 	}
