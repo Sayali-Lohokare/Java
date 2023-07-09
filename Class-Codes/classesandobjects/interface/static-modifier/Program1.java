@@ -11,7 +11,7 @@ class Client{
         DemoChild obj = new DemoChild();
 <<<<<<< Updated upstream
         obj.fun();
-        //Demo.fun();
+        Demo.fun();
         obj.fun()
 =======
         //obj.fun();
