@@ -17,8 +17,9 @@ class RunnableDemo{
 		//t1.start();
 		//t1.run();
 		//t2.start();
-		//t2.run();
-		r.start();
+		t2.run();
+		//r.start();
+		//r.run();
 
 		System.out.println("main thread");
 	}
