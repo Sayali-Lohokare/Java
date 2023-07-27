@@ -1,4 +1,4 @@
-class Demo{
+/*class Demo{
 		public static void bubbleSort(int arr[]){
 			int temp=0;
 
@@ -22,7 +22,61 @@ class Demo{
 
 		int arr[] = {5,3,2,1,4};
 		bubbleSort(arr);
-		//`printArr(arr);
+		printArr(arr);
 	}
-}
+}*/
+
+class Solution {
+    public static int[] plusOne(int[] digits) {
+
+        int temp[] = new int[100];
+        int count =0;
+        int n = digits.length;
+        if (digits[n]==9){
+            temp [count++]=0;
+            temp[count++]=digits[n-1]+1;
+            for (int i = n-2-1;i>=0;i--){
+                temp[count++]=digits[i];
+            }
+        }
+        else{
+		temp[count++]=digits[n-1]+1;
+        for (int i =n-2;i>=0;i--){
+            temp[count++]=digits[i]; 
+
+           
+        }
+	}
+        int temp1[] = new int [count+1];
+        for (int i=0;i<count+1;i++){
+            temp1[i]=temp[i];
+
+        
+	}
+	
+        int start = 0;
+        int end = count+1;
+        while(start<end){
+            int t = temp1[start];
+            temp1[start]= temp1[end];
+            temp1[end]= temp1[start];
+
+        }
+        return temp1;
+
+        
+    }
+    public static void main(String[] args){
+	    int digits[] = {1,2,3,4,5,9};
+	    int arr[] = plusOne(digits);
+	    for (int i=0;i<arr.length;i++){
+	    System.out.print(arr[i] +" ");
+	    }
+    }
+
+    }
+
+
+
+
 
