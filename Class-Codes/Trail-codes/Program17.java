@@ -11,5 +11,5 @@ class B extends A{
 	obj1.m1();
 
 	A obj3 = new B();
-	obj3.m1();
+	//obj3.m1();
 }
