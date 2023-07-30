@@ -9,7 +9,7 @@ class A{
 		System.out.println("thread1 trying to call B's last() method");
 		b.last();
 	}
-	public  void last(){
+	public synchronized void last(){
 		System.out.println("inside A, this is the last() method");
 	}
 }
@@ -24,7 +24,7 @@ class B{
 		System.out.println("thread2 trying to call A's last() method");
 		a.last();
 	}
-	public  void last(){
+	public synchronized void last(){
 		System.out.println("inside B,this is last() method");
 	}
 }
