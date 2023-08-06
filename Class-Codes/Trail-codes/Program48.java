@@ -18,6 +18,6 @@ class Demo{
 		Demo obj = new Demo();
 		obj.fun(a,b);
 
-		System.out.println(a+b);
+		System.out.println(a+c);
 	}
 }
