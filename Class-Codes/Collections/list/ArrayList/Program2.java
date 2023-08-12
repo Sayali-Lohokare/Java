@@ -9,7 +9,14 @@ class CricPlayer{
 	CricPlayer(int jerNo,String name){
 		this.jerNo = jerNo;
 		this.name = name;
+		// due to this only address will be printed
 
+	}
+	public String toString(){
+		return jerNo + ":" + name;
+	
+		//return name;
+		//return jerNo;
 	}
 }
 class ArrayListDemo{
@@ -21,7 +28,10 @@ class ArrayListDemo{
 		al.add(new CricPlayer(45,"Rohit"));
 
 		System.out.println(al);
+
+		al.add(33,"hardik");
+		System.out.println(al);
 	}
 }
 
-
+//here use "this" is mandatory as we are using add method and it creates new obj ever time with parameretw

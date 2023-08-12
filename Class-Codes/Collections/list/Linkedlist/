@@ -1,0 +1,32 @@
+import java.util.*;
+class LinkedListDemo{
+	public static void main(String[] args){
+
+		LinkedList ll = new LinkedList();
+
+		/*ll.add(10);
+		ll.add(20.8f);
+		ll.add("sayu");
+		ll.add(16.8);*/
+
+		ll.addLast(30);
+		ll.addFirst(10);
+		ll.add(20);
+
+		/*System.out.println(ll);
+
+		ll.add(2);
+		System.out.println(ll);*/
+
+		ll.removeFirst();
+		System.out.println(ll);
+
+		//public void addFirst(E);
+		ll.addFirst(100);
+		System.out.println(ll);
+
+		//public void addLast(E);
+		ll.addLast(300);
+		System.out.println(ll);
+	}
+}
