@@ -14,6 +14,6 @@ class LargestCharDemo{
 				largestchar=ch;
 			}
 		}
-		System.out.println("Largest character =" + largestchar);
+		//System.out.println("Largest character =" + largestchar);
 	}
 }
