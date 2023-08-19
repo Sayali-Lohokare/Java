@@ -6,7 +6,7 @@ class NestedFor{
 				System.out.print(num*num +" ");
 				num++;
 			}
-			System.out.println();
+			//System.out.println();
 		}
 	}
 }
