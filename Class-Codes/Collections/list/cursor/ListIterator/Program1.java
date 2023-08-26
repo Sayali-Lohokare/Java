@@ -13,18 +13,21 @@ class ListIteratorDemo{
 
 		ListIterator itr = ll.listIterator();
 		while(itr.hasNext()){
-			if(itr.equals("ram")){
+
+			String s = (String)itr.next();
+
+			if(s.equals("ram")){
 				itr.remove();//[lakshman,sita,ravan]
 			}
-			else if(itr.equals("lakshman")){
+			else if(s.equals("lakshman")){
 				itr.add("hanuman");//[lakshman,hanuman,sita,ravan]
 			}
-			else if(itr.equals("sita")){
+			else if(s.equals("sita")){
 				itr.set("draupadi");//[lakshman,hanuman,draupadi,ravan]
 			}
 			
 		}
-		System.out.println(itr);//[lakshman,hanuman,sita,ravan]
+		System.out.println(ll);//[lakshman,hanuman,sita,ravan]
 	}
 }
 
