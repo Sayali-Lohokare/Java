@@ -1,7 +1,7 @@
 class Player{
 
 	int jerNo = 0;
-	String name = null;
+	String str = null;
 
 	Player(int jerNo,String name){
 
