@@ -6,7 +6,7 @@ class Demo{
     else{
         print"Underflow"
     }
-    return top
+    //return top
     
 }
 }
