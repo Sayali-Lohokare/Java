@@ -16,7 +16,7 @@ class Rainbow{
 		}else if(input == 'R'){
 			System.out.println("Red");
 		}else{
-			System.out.println("Not included in Rainbow");
+			//System.out.println("Not included in Rainbow");
 		}
 	}
 }	
