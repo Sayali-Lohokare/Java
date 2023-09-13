@@ -12,7 +12,7 @@ class NestedFor{
 			
 				
 			}
-			//System.out.println();
+			System.out.println();
 		
 			
 		}
