@@ -22,6 +22,6 @@ class Demo{
 			}
 		}
 		
-		System.out.println("Product of even numbers =" + sum);
+		//System.out.println("Product of even numbers =" + sum);
 	}
 }
