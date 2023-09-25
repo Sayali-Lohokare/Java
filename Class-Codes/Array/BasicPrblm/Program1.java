@@ -1,4 +1,4 @@
-/*import java.io.*;
+import java.io.*;
 class FindElement{
 
 	/*static int find(int n){
@@ -10,7 +10,7 @@ class FindElement{
 			System.out.println(arr[i]);
 		}
 		//return val;
-	}
+	}*/
 
 	public static void main(String[] args)throws IOException{
 
@@ -22,14 +22,17 @@ class FindElement{
 			if(arr[i]==n){
 				System.out.println(i);
 			}
-			//System.out.println(arr[i]);
+			/*else{
+				System.out.println(-1);
+				}*/
 		}
+		return -1;
 	}
-}*/
+}
 
 
 
-import java.io.*;
+/*import java.io.*;
 class FindElement{
 
 	static int element(int n, int arr[]){
@@ -48,9 +51,9 @@ class FindElement{
 		 System.out.println("Enter the element :" );
 		int n = Integer.parseInt(br.readLine());
 
-		int index = element(n,arr);
-		System.out.println(index);
+		//int index = element(n,arr);
+		System.out.println(element(n,arr));
 	}
-}
+}*/
 
 		
