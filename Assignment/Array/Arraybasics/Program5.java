@@ -1,4 +1,4 @@
-import java.io.*;
+/*import java.io.*;
 class SecondLargestNumDemo{
 	public static void main(String[] args)throws IOException{
 
@@ -26,4 +26,9 @@ class SecondLargestNumDemo{
 		}
 		System.out.println("second largest num ="+ secondlargestnum);
 	}
-}
+}*/
+
+import java.io.*;
+class SecondLargestNumDemo{
+	static int find(int arr[]){
+		int largestno = 
