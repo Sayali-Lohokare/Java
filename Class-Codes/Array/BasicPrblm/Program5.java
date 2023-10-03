@@ -81,7 +81,7 @@ class ReplaceDemo{
 import java.io.*;
 class ReplaceDemo{
 	 
-	static int ArrayList find(int ArrayList){
+	static  ArrayList find(int ArrayList){
 
 		for(int i=0;i<arr.length;i++){
 			if(list.get(i)==0){
@@ -100,14 +100,16 @@ class ReplaceDemo{
 		ArrayList al = new ArrayList();
 
 		System.out.println("enter the elements");
-		for(int i=0;i<arr.length;i++){
+		for(int i=0;i<al.length;i++){
 			list.add(Integer.parseInt(br.readLine()));
 		}
 
-		int output = find(int ArrayList);
+		ArrayList output = find(list);
 
 		for(int i=0;i<arr.length;i++){
-			System.out.println(output);
+			for(int num : output){
+				System.out.println(output);
+			}
 		}
 	}
 }
