@@ -46,7 +46,7 @@ class Element{
 			if(arr[i]==max){
 				count++;
 			}
-			System.out.println(n-count);
+			System.out.println(count);
 		}
 	}
 }
