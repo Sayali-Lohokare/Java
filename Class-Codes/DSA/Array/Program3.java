@@ -40,7 +40,7 @@ class TwoSum{
 
 
 		int output[] = find(arr,target);
-		System.out.println(Arrays.toString(output));
+		//System.out.println(Arrays.toString(output));
 	}
 }
 
