@@ -6,7 +6,7 @@ class NestedFor{
 				System.out.print(ch+ " ");
 				ch--;
 			}
-			System.out.println();
+			//System.out.println();
 		}
 	}
 }
