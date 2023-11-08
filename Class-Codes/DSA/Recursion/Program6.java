@@ -45,7 +45,7 @@ class SumOfN{
 
 		SumOfN obj = new SumOfN();
 		int ret = obj.fun(n);
-		System.out.println(ret);
+		//System.out.println(ret);
 	}
 }
 
