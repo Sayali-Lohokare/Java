@@ -16,7 +16,7 @@ class PrintNum{
 		public static void main(String[] args){
 
 		PrintNum obj = new PrintNum();
-		obj.find(1);
+		//obj.find(1);
 	}
 }
 	

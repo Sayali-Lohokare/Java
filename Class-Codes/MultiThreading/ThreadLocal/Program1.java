@@ -7,6 +7,6 @@ class ThreadLocalDemo{
 		t1.set("sayu");
 		System.out.println(t1.get());
 		t1.remove();
-		System.out.println(t1.get());
+		//System.out.println(t1.get());
 	}
 }
